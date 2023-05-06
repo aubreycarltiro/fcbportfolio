@@ -1,0 +1,36 @@
+/*
+	Syntax for CSS
+	selector {
+		property:  value;
+	}
+*/
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 200px;
+	width: 200px;
+	/*border-radius: 50%;*/
+}
+
+body {
+	background-color: #FFFFFF !important;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%234c4444' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23722e2e' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23382d2f' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%236a2c2e' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23382f34' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23540a17' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23200b1e' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23562e35' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23261a29' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23442731' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%231a0623' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23332833' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+#landing {
+	height:  80vh;
+	/* center the contents vertically using flexbox */
+	display: flex;
+	flex-direction: column;
+	justify-content: safe center;
+	align-items: center;
+	
+}
